@@ -1,0 +1,57 @@
+[
+	{
+		"model": "base.property", 
+		"pk": 1, 
+		"fields": {
+			"name": "Eko Hotels & Suites", 
+			"rating": "5 star", 
+			"address": "1415 Adetokunbo Ademola Street, Victoria Island, Lagos", 
+			"state": "Lagos", 
+			"price": "81000.00"
+		}
+	}, 
+	{
+		"model": "base.property", 
+		"pk": 2, 
+		"fields": {
+			"name": "Radisson Blu Hotel, Dakar Sea Plaza", 
+			"rating": "5 star", 
+			"address": "Route de la Corniche O, Dakar 16868, Senegal", 
+			"state": "Dakar", 
+			"price": "90035.00"
+		}
+	}, 
+	{
+		"model": "base.property", 
+		"pk": 3, 
+		"fields": {
+			"name": "Transcorp Hilton Abuja", 
+			"rating": "5 star", 
+			"address": "1 Aguiyi Ironsi St, Maitama 900001, Abuja", 
+			"state": "Abuja", 
+			"price": "67596.00"
+		}
+	}, 
+	{
+		"model": "base.property", 
+		"pk": 4, 
+		"fields": {
+			"name": "The George Lagos Hotel", 
+			"rating": "5 star", 
+			"address": "30 Lugard Ave, Ikoyi, Lagos", 
+			"state": "Lagos", 
+			"price": "132400.00"
+		}
+	}, 
+	{
+		"model": "base.property", 
+		"pk": 5, 
+		"fields": {
+			"name": "Ibom Hotel & Golf Resort", 
+			"rating": "4 star", 
+			"address": "Nwaniba Road, Uyo", 
+			"state": "Akwa Ibom", 
+			"price": "54263.00"
+		}
+	}
+]

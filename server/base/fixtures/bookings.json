@@ -1,0 +1,62 @@
+[
+	{
+		"model": "base.booking", 
+		"pk": 1, 
+		"fields": {
+			"first_name": "Lenka", 
+			"last_name": "Utsugi", 
+			"email": "lenkautsugi@mail.com", 
+			"property_booked": 3, 
+			"created": "2020-10-29T17:57:18.897Z", 
+			"updated": "2020-10-29T17:57:18.897Z"
+		}
+	}, 
+	{
+		"model": "base.booking", 
+		"pk": 2, 
+		"fields": {
+			"first_name": "Mikasa", 
+			"last_name": "Ackerman", 
+			"email": "mikasackergirl@mail.com", 
+			"property_booked": 1, 
+			"created": "2020-10-29T17:57:55.237Z", 
+			"updated": "2020-10-29T17:57:55.237Z"
+		}
+	}, 
+	{
+		"model": "base.booking", 
+		"pk": 3, 
+		"fields": {
+			"first_name": "Eren", 
+			"last_name": "Jaeger", 
+			"email": "erenthetitan@mail.com", 
+			"property_booked": 1, 
+			"created": "2020-10-29T17:58:23.372Z", 
+			"updated": "2020-10-29T17:58:23.372Z"
+		}
+	}, 
+	{
+		"model": "base.booking", 
+		"pk": 4, 
+		"fields": {
+			"first_name": "Guts", 
+			"last_name": "Berseker", 
+			"email": "bishopslayer@mail.com", 
+			"property_booked": 2, 
+			"created": "2020-10-29T17:59:47.945Z", 
+			"updated": "2020-10-29T17:59:47.945Z"
+		}
+	}, 
+	{
+		"model": "base.booking", 
+		"pk": 5, 
+		"fields": {
+			"first_name": "Killua", 
+			"last_name": "Zoldyck", 
+			"email": "killuastunning@mail.com", 
+			"property_booked": 5, 
+			"created": "2020-05-06T14:00:40.601Z", 
+			"updated": "2020-05-06T14:00:40.601Z"
+		}
+	}
+]
