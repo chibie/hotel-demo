@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Properties API</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.3/dist/css/uikit.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
+    </head>
+    <body>
+		<div class="uk-background uk-height-viewport" style="background-image: url(../static/images/dark-background.png);">
+			<div class="uk-container uk-container-small uk-flex-auto uk-text-center">
+				<div class="uk-position-center">
+					<h1 class="uk-heading-primary uk-light" style="font-family: 'Gotu', sans-serif;">LimeHome Assessment</h1>
+					<div class="uk-margin uk-margin-remove-top">
+						<a href="docs/" class="uk-button uk-button-primary uk-button-large">Documentation</a>
+						<a href="{% url 'properties' %}" class="uk-button uk-button-secondary uk-button-large">Properties</a>
+						<a href="{% url 'bookings' %}" class="uk-button uk-button-secondary uk-button-large">Bookings</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.3/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.3/dist/js/uikit-icons.min.js"></script>
+    </body>
+</html>

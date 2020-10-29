@@ -8,6 +8,10 @@ from .serializers import PropertySerializer, BookingSerializer
 from .utils.fetch_hotels import fetch_hotels
 
 
+def home(request):
+	return render(request, 'base/home.html')
+
+
 class PropertyList(APIView):
 	"""
 	Return all instances of the Property model.
