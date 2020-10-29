@@ -1,5 +1,3 @@
-# limehome
-
 ## Project setup
 ```
 yarn install
@@ -15,15 +13,7 @@ yarn serve
 yarn build
 ```
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
 ### Lints and fixes files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
