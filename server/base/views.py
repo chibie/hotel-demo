@@ -21,6 +21,18 @@ class PropertyList(APIView):
 		if 'at' in self.request.GET:
 			lat, long = self.request.GET.get('at').split(',')
 			hotels = fetch_hotels(lat, long, 'hotel', 5, settings.HERE_API_KEY)
+
+			for hotel in hotels:
+				try:
+					_ = Property.objects.get(name=hotel["title"])
+				except Property.DoesNotExist:
+					_ = Property.objects.create(
+						name=hotel['title'],
+						address=hotel['address'],
+						state=hotel['state'],
+						price=hotel['price']
+					)
+
 			return Response(hotels)
 		else:
 			properties = Property.objects.all()

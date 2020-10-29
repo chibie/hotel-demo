@@ -3,7 +3,7 @@ from django.db import models
 
 class Property(models.Model):
 	name = models.CharField(max_length=150)
-	rating = models.CharField(max_length=10)
+	rating = models.CharField(max_length=10, default='4 star')
 	address = models.CharField(max_length=150)
 	state = models.CharField(max_length=50)
 	price = models.DecimalField(max_digits=8, decimal_places=2)
@@ -26,3 +26,6 @@ class Booking(models.Model):
 
 	class Meta:
 		verbose_name_plural = 'Bookings'
+
+	def __str__(self):
+		return f'Booked by {self.last_name.title()} {self.first_name.title()}'
